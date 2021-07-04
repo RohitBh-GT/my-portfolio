@@ -1,0 +1,35 @@
+.nav_link{
+        background: -webkit-linear-gradient(rgb(241, 10, 10), rgb(238, 200, 10));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 6px;
+        margin-left:10px;
+        margin-right:10px;
+        font-weight:900;
+        font-size:1.3rem;
+        text-decoration:none;
+        font-family: 'Akaya Kanadaka', cursive;
+}
+.heading{
+    margin-left:8px;
+    font-size:2.4rem;
+    font-family:'Akaya Kanadaka',cursive;
+}
+
+@media screen and (max-width: 980px)  {
+    .nav_link{
+        font-size: 1.1rem;
+        font-weight:850;
+        margin-left:4px;
+        margin-right:4px;
+    }
+    .heading{
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading{
+        align-items: center;
+    }
+}

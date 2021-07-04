@@ -1,0 +1,22 @@
+.social{
+   cursor:pointer;
+   color:white;
+   text-decoration: none;
+   margin-top: 12px;
+}
+
+.gmail:hover{
+    color:red;
+}
+
+.linkedIn:hover{
+    color:#1565c0;
+}
+
+.github:hover{
+    color:grey;
+}
+
+.call:hover{
+   color:coral;
+}

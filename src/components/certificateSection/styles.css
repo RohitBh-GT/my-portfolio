@@ -1,0 +1,21 @@
+.certiHeading{
+    display:inline-block;
+    font-size: 4.5rem;
+    margin-left:1rem;
+    font-family: 'Akaya Kanadaka';
+    background:  -webkit-linear-gradient(rgb(241, 10, 10), rgb(238, 200, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 980px) {
+    .certiHeading{
+        font-size: 3.5rem;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .certiHeading{
+        font-size: 2.8rem;
+    } 
+}

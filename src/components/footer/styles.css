@@ -1,0 +1,12 @@
+.footer{
+    background-color: rgb(73, 73, 73);
+    color:rgb(247, 243, 4);
+    font-family: 'Akaya Kanadaka';
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.para{
+    padding: 6px;
+}
