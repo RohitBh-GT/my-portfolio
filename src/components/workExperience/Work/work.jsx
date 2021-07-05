@@ -13,7 +13,7 @@ function Work(props) {
       </div>
       <Typography variant="h6" component="span" style={{ fontWeight: '600', fontFamily: 'Akaya Kanadaka' }} >Internship Period:&nbsp;&nbsp; {props.time} </Typography>
       <Typography style={{ fontWeight: 'bold', fontFamily: 'Akaya Kanadaka' }} variant="h6">My Role:</Typography>
-      <ul>
+      <ul style={{paddingLeft:'8px'}}>
         {props.role.map((r)=>(
           <li>{r}</li>
         ))}

@@ -13,7 +13,7 @@ function Certificate(props) {
                     title={props.certificateTitle}
                 />
                 <CardContent>
-                    <h2 style={{fontFamily:'Akaya Kanadaka'}} >{props.certificateTitle}</h2>
+                    <h3 style={{fontFamily:'Akaya Kanadaka'}} >{props.certificateTitle}</h3>
                 </CardContent>
             </CardActionArea>
             <CardActions>

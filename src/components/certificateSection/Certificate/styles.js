@@ -6,7 +6,8 @@ const useStyles = makeStyles((theme)=>({
       padding:'0.2rem',
       fontFamily:'Akaya Kanadaka',
       backgroundColor: '#6e6e6e',
-      backgroundImage: 'url("https://www.transparenttextures.com/patterns/back-pattern.png")'
+      backgroundImage: 'url("https://www.transparenttextures.com/patterns/back-pattern.png")',
+      textAlign:'center'
     },
     media: {
       height: 200,
