@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme)=>({
       minWidth: 300,
       padding:'0.2rem',
       fontFamily:'Akaya Kanadaka',
-      backgroundColor: '#ffa726',
+      backgroundColor: '#6e6e6e',
       backgroundImage: 'url("https://www.transparenttextures.com/patterns/back-pattern.png")'
     },
     media: {

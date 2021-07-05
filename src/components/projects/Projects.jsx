@@ -13,7 +13,7 @@ function Projects() {
        Aos.init({duration:2000});
     },[]);
     return (
-        <div className={classes.projectsContainer} >
+        <div id="projects" className={classes.projectsContainer} >
             <h1 className="headingProject">Projects</h1>
             <Grid className={classes.mainGrid} container spacing={7}>
                {myProjects.map((myProject)=>(

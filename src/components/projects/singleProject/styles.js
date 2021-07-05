@@ -4,15 +4,17 @@ const useStyles = makeStyles((theme)=>({
     card: {
         maxWidth: '345',
         color:'white',
-        backgroundImage:'linear-gradient(45deg,#f10a0a,#eec80a)',
+        backgroundImage:'linear-gradient(1deg,#FFAC41,#FF1E56)',
         '&:hover':{
-          backgroundImage:'linear-gradient(13deg,#f10a0a,#eec80a)'
+          backgroundImage:'linear-gradient(13deg,#FFAC41,#FF1E56)'
         } 
       },
       visitButton:{
-        color:'#4a148c',
+        textDecoration:'none',
+        color:'black',
         '&:hover':{
-          backgroundImage:'linear-gradient(50deg,#01579b,#00e5ff)'
+          backgroundImage:'linear-gradient(50deg,#01579b,#00e5ff)',
+          color:'yellow'
         } 
       },
       header:{

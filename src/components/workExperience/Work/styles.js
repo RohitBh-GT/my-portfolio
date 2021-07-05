@@ -6,14 +6,14 @@ const useStyles = makeStyles((theme)=>({
         backgroundColor:'yellow',
         margin:'1rem',
         display:'flex',
-        backgroundColor: '#f5dc44',
+        backgroundColor: '#FFAC41',
         backgroundImage: 'url("https://www.transparenttextures.com/patterns/black-felt.png")',
         color:'black',
         flexDirection:'column',
         padding:'0.5rem',
-        boxShadow:'5px 5px 8px 3px #f1b00a',
+        boxShadow:'5px 5px 8px 3px #fab052',
         '&:hover':{
-            transform:'scaleY(1.1)'
+            transform:'scale(1.1)',
         }
     }
 }));

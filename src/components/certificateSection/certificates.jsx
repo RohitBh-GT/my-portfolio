@@ -11,7 +11,7 @@ function Certificates(){
         {width:980,itemsToShow:3}
     ]
     return (
-        <div>
+        <div id="certificates">
             <h2 className="certiHeading">Certificates</h2>
             <Carousel breakPoints={breakpoints}>
                 {certi.map((c)=>(

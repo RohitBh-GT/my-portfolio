@@ -8,7 +8,7 @@ import MyExperience from './myExperience.js';
 function WorkExperience(){
     const classes = useStyles();
     return (
-        <div>
+        <div id="workExperience">
             <h2 className="workHeading">Work Experiences</h2>
             <Grid container className={classes.workGrid}>
                 {MyExperience.map((exp)=>(

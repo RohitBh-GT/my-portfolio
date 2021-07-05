@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme)=>({
         textAlign:'center'
     },
     rightHeading:{
-       color:'#eeff41', 
+       fontFamily:'Encode Sans SC',
+       color:'#FFAC41', 
        textAlign:'center',
        fontSize:'2.5rem'
     },

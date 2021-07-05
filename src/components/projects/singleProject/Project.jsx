@@ -22,7 +22,7 @@ function Project(props) {
       />
       <CardMedia className={classes.media} image={props.imageUrl} />
       <CardContent>
-        <p>
+        <p fontFamily="cursive" >
           {props.shortDesc}
         </p>
       </CardContent>
@@ -42,7 +42,7 @@ function Project(props) {
         </IconButton>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
+        <CardContent style={{color:'black'}} >
           <h4>Languages Used:</h4>
              {props.languages.map((lang)=>(
                   <ul>

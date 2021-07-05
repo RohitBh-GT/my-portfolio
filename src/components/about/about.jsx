@@ -22,7 +22,7 @@ function About(){
            <Grid container spacing={3}>
                <Grid item xs={12} md={4} className={classes.leftAbout} >
                    <img src={Photo} className={classes.image} />
-                   <h1 style={{color:'#ef6c00'}} >Rohit Bhalla</h1>
+                   <h1 style={{color:'#FFAC41'}} >Rohit Bhalla</h1>
                    <h3>(2nd Year Student)</h3>
                    <div><a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDDGPgcCZmdpbbTWlqHhrQNjNgvHKbwpWBtzZMKkzCDQPMPPgqWhPXZxScVSbSkDVtMMZC"><SiGmail className="social gmail" fontSize="2rem" /></a>&nbsp; &nbsp;
                    <a target="_blank" href="https://www.linkedin.com/in/rohit-bhalla-5ba4451a2/"><FaLinkedin className="social linkedIn" fontSize="2rem" /></a>&nbsp; &nbsp;

@@ -8,7 +8,8 @@ const useStyles = makeStyles((theme)=>({
    },
    langHeading:{
        fontSize:'1.5rem',
-       color:'orange'
+       color:'#FFAC41',
+       marginTop:'0.9rem'
    },
    iconStyle:{
     [theme.breakpoints.down('sm')]:{

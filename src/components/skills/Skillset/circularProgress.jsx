@@ -5,9 +5,10 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 function CircularProgressWithLabel(props) {
+  const c = ["black","red","#f516db","yellow","orange","#5ef507"];
   return (
     <Box position="relative" display="inline-flex">
-      <CircularProgress style={{color:'yellow'}} variant="determinate" {...props} />
+      <CircularProgress style={{color:c[Math.round(props.value/20)]}} variant="determinate" {...props} />
       <Box
         top={0}
         left={0}
@@ -35,7 +36,7 @@ export default function CircularStatic({maxScore}) {
 
   React.useEffect(() => {
     const timer = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress >= maxScore ? prevProgress : prevProgress + 20));
+      setProgress((prevProgress) => (prevProgress >= maxScore ? prevProgress : prevProgress + 10));
     }, 800);
     return () => {
       clearInterval(timer);

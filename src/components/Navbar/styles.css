@@ -1,7 +1,8 @@
 .nav_link{
-        background: -webkit-linear-gradient(rgb(241, 10, 10), rgb(238, 200, 10));
+        /* background: -webkit-linear-gradient(rgb(241, 10, 10), rgb(238, 200, 10));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
+        color:#FF1E56;
         padding: 6px;
         margin-left:10px;
         margin-right:10px;
