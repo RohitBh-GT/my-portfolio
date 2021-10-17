@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 
 function Skills(){
     const classes = useStyles();
+
     useEffect(()=>{
         Aos.init({duration:2000});
     },[]);
@@ -37,7 +38,7 @@ function Skills(){
                     <Grid item xs={12} sm={6} md={4}><Programming icon={<SiJavascript className={classes.iconStyle} fontSize="2rem" color="#ffeb3b" />} PLang="JavaScript" maxScore="80" /></Grid>
                     <Grid item xs={12} sm={6} md={4}><Programming icon={<SiNodeDotJs className={classes.iconStyle} fontSize="2rem" color="#8bc34a"/>} PLang="Node.Js" maxScore="80" /></Grid>
                     <Grid item xs={12} sm={6} md={4}><Programming icon={<SiReact className={classes.iconStyle} fontSize="2rem" color="#00e5ff"/>} PLang="ReactJS" maxScore="80" /></Grid>
-                    <Grid item xs={12} sm={6} md={4}><Programming icon={<SiRedux className={classes.iconStyle} fontSize="2rem" color="#9c27b0" />} PLang="Redux" maxScore="70" /></Grid>
+                    <Grid item xs={12} sm={6} md={4}><Programming icon={<SiRedux className={classes.iconStyle} fontSize="2rem" color="#9c27b0" />} PLang="Redux" maxScore="90" /></Grid>
                 </Grid>
 
                 <Grid item xs={12} sm={3} md={3} lg={4}>

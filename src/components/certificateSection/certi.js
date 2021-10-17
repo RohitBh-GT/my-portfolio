@@ -3,6 +3,10 @@ const certificates = [
         "certificateTitle":"Android Development Intern at DIC",
         "certificatePhoto":"/img/AndroidInternDIC.png",
         "url":"https://drive.google.com/file/d/1FEbbZGsl1xrFWPY7ZkoH16UGzr0rMU8x/view",
+    },{
+        "certificateTitle":"Web Developer Intern at Zizzy Technologies",
+        "certificatePhoto":"/img/WebDeveloperZizzy.png",
+        "url":"https://drive.google.com/file/d/19OCEavZb0bbnSd9qHSrweeI-NqYfQAK0/view?usp=sharing",
     },
     {
         "certificateTitle":"Full Stack Web Development from Udemy",
